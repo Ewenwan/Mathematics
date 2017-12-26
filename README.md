@@ -162,8 +162,21 @@ X0 = 0, X1 = 1.01, l2 = 1.9
 
 > 将这个结果和之前对比，可以看到这里的机器人位姿x1更靠近编码器测量的结果。请记住这种思想，这里的权重就是在后面将要经常提到的边的信息矩阵。
 
+# 图优化理论分析
+[图优化理论分析](http://blog.csdn.net/heyijia0327/article/details/47731631)
+ > 由以上 实例分析可得：
+ 
+ > 目标函数
+![](pic/21.png)
 
 
+# 卡尔曼滤波器
+[卡尔曼滤波](http://blog.csdn.net/heyijia0327/article/details/17487467)
+
+
+
+# 粒子滤波器
+[粒子滤波](http://blog.csdn.net/heyijia0327/article/details/40899819)
 
 
 
