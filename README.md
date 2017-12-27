@@ -395,59 +395,59 @@ X0 = 0, X1 = 1.01, l2 = 1.9
  
 ## matlab 小车匀加速 程序示例：
 
-      clc  
-      clear all  
-      close all  
+         clc  
+         clear all  
+         close all  
 
-      % 初始化参数  
-      delta_t=0.1;   %采样时间  
-      t=0:delta_t:5;  
-      N = length(t); % 序列的长度  
-      sz = [2,N];    % 信号需开辟的内存空间大小  2行*N列  2:为状态向量的维数n   位移 速度
-      g=10;          % 加速度值   
-      x=1/2*g*t.^2;  % 实际真实位置序列
-      z = x + sqrt(10).*randn(1,N); % 仿真 的 测量值 测量时加入测量白噪声 测量噪声 方差为 10  均值为0 
+         % 初始化参数  
+         delta_t=0.1;   %采样时间  
+         t=0:delta_t:5;  
+         N = length(t); % 序列的长度  
+         sz = [2,N];    % 信号需开辟的内存空间大小  2行*N列  2:为状态向量的维数n   位移 速度
+         g=10;          % 加速度值   
+         x=1/2*g*t.^2;  % 实际真实位置序列
+         z = x + sqrt(10).*randn(1,N); % 仿真 的 测量值 测量时加入测量白噪声 测量噪声 方差为 10  均值为0 
 
-      Q =[0 0;0 9e-1]; % 系统噪声协方差 假设建立的模型  噪声方差叠加在速度上 大小为n*n方阵 n=状态向量的维数=2
-      R = 10;          % 位置测量协方差估计，可以改变它来看不同效果  m*m      m=z(i)的维数  一个测量值
-      
-     % n*n 状态 转移 矩阵  x = x * 1 + v * delta_t  + 1/2*delta_t^2 *g ;  v = x * 0  + v * 1 + delta_t*g
-      A=[1 delta_t;0 1];  
-      B=[1/2*delta_t^2;delta_t];  
-      H=[1,0];         % m*n   测量转移矩阵   z = 1 * x + 0 * v  + 噪声
+         Q =[0 0;0 9e-1]; % 系统噪声协方差 假设建立的模型  噪声方差叠加在速度上 大小为n*n方阵 n=状态向量的维数=2
+         R = 10;          % 位置测量协方差估计，可以改变它来看不同效果  m*m      m=z(i)的维数  一个测量值
 
-      n=size(Q);  %n为一个1*2的向量  Q为方阵  
-      m=size(R);  
+        % n*n 状态 转移 矩阵  x = x * 1 + v * delta_t  + 1/2*delta_t^2 *g ;  v = x * 0  + v * 1 + delta_t*g
+         A=[1 delta_t;0 1];  
+         B=[1/2*delta_t^2;delta_t];  
+         H=[1,0];         % m*n   测量转移矩阵   z = 1 * x + 0 * v  + 噪声
 
-      % 分配空间  
-      xhat=zeros(sz);       % x的后验估计        状态估计值 
-      P=zeros(n);           % 后验方差估计  n*n  状态估计值 协方差
-      xhatminus=zeros(sz);  % x的先验估计        状态 预测值  
-      Pminus=zeros(n);      % n*n               状态 预测值 协方差
-      K=zeros(n(1),m(1));   % Kalman增益  n*m   n 为 系统状态数量  m为 测量变量的维数 
-      I=eye(n);  
+         n=size(Q);  %n为一个1*2的向量  Q为方阵  
+         m=size(R);  
 
-      % 估计的初始值都为默认的0，即P=[0 0;0 0],xhat=0  
-      % P=[2 0;0 2] //系统初始方差较大 算出来的 增益 K 就大，增益K 是测量真值 和 测量预测值 误差的系数 ，所以更相信测量值
-      for k = 9:N           %假设车子已经运动9个delta_T了，我们才开始估计   
-          % 时间更新过程  
-          xhatminus(:,k) = A * xhat(:,k-1) + B*g;  // 系统噪声均值为0  协方差 为 Q
-          Pminus= A * P * A' + Q;
+         % 分配空间  
+         xhat=zeros(sz);       % x的后验估计        状态估计值 
+         P=zeros(n);           % 后验方差估计  n*n  状态估计值 协方差
+         xhatminus=zeros(sz);  % x的先验估计        状态 预测值  
+         Pminus=zeros(n);      % n*n               状态 预测值 协方差
+         K=zeros(n(1),m(1));   % Kalman增益  n*m   n 为 系统状态数量  m为 测量变量的维数 
+         I=eye(n);  
 
-          % 测量更新过程  
-          K = Pminus*H'*inv( H*Pminus*H'+R );  
-          xhat(:,k) = xhatminus(:,k)+K*(z(k)-H*xhatminus(:,k));   // 测量 噪声均值为0  协方差 为 R
-          P = (I-K*H)*Pminus;  
-      end  
+         % 估计的初始值都为默认的0，即P=[0 0;0 0],xhat=0  
+         % P=[2 0;0 2] //系统初始方差较大 算出来的 增益 K 就大，增益K 是测量真值 和 测量预测值 误差的系数 ，所以更相信测量值
+         for k = 9:N           %假设车子已经运动9个delta_T了，我们才开始估计   
+             % 时间更新过程  
+             xhatminus(:,k) = A * xhat(:,k-1) + B*g;  // 系统噪声均值为0  协方差 为 Q
+             Pminus= A * P * A' + Q;
 
-      figure  
-      plot(t,z);  
-      hold on  
-      plot(t,xhat(1,:),'r-')  
-      plot(t,x(1,:),'g-');  
-      legend('含有噪声的测量', '后验估计', '真值');  
-      xlabel('Iteration');  
- 
+             % 测量更新过程  
+             K = Pminus*H'*inv( H*Pminus*H'+R );  
+             xhat(:,k) = xhatminus(:,k)+K*(z(k)-H*xhatminus(:,k));   // 测量 噪声均值为0  协方差 为 R
+             P = (I-K*H)*Pminus;  
+         end  
+
+         figure  
+         plot(t,z);  
+         hold on  
+         plot(t,xhat(1,:),'r-')  
+         plot(t,x(1,:),'g-');  
+         legend('含有噪声的测量', '后验估计', '真值');  
+         xlabel('Iteration');  
+
 
 
 
