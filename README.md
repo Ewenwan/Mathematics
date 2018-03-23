@@ -115,6 +115,14 @@
 
 #### [奇异值分解](http://blog.csdn.net/heyijia0327/article/details/26762531)
 
+#### PCA降维
+      PCA（Principal Component Analysis）是一种常用的数据分析方法。
+
+      PCA通过线性变换将原始数据变换为一组各维度线性无关的表示，
+
+      可用于提取数据的主要特征分量，常用于高维数据的降维。
+[PCA降维](http://blog.codinglabs.org/articles/pca-tutorial.html)
+
 ### 高斯分布
 #### 一维高斯分布
 ![](pic/34.png)
