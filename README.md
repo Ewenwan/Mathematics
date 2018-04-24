@@ -367,7 +367,8 @@
            // float tep=0.0; tep = (tep + 5 * sensor_dat)/6.0; 这里的权重分别为 1/6  和 5/6  和为1
       更新  xt  =  xt-1  - W * (1/vt) * mt
 
-
+#### 神经网络 反向传播
+[台大视频参考](http://speech.ee.ntu.edu.tw/~tlkagk/courses/MLDS_2015_2/Lecture/DNN%20backprop.ecm.mp4/index.html)
 
 
       
