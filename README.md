@@ -617,6 +617,13 @@ X0 = 0, X1 = 1.01, l2 = 1.9
 
 [多视角几何百度文库搜索](https://wenku.baidu.com/search?word=%BC%C6%CB%E3%BB%FA%CA%D3%BE%F5%D6%D0%B5%C4%B6%E0%CA%D3%CD%BC%BC%B8%BA%CE&lm=0&od=0&fr=top_home&ie=gbk)
 
+## 机器人学 
+[机器人关节（Joint）之间的坐标变换（Transform）](http://www.cnblogs.com/caster99/p/4717358.html)
+
+[雅克比矩阵（Jacobian Matrix）在正运动学中的应用](http://www.cnblogs.com/caster99/p/4725914.html)
+
+[雅克比矩阵转置（Jacobian Transpose）在力和力矩中的应用](http://www.cnblogs.com/caster99/p/4733988.html)
+
 ## 核函数
 > 核函数保证每条边的误差不会大的没边，剔除误差较大的边。
 
