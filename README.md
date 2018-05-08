@@ -590,6 +590,12 @@ X0 = 0, X1 = 1.01, l2 = 1.9
 
 > 然后通过对数变换再转换到原本的李群中。这样我们就完成了求导。
 
+## 多视角几何 
+
+[跟我一起学Multiple View Geometry多视图几博客](https://blog.csdn.net/fk1174/article/details/51811644)
+
+[读书笔记](https://blog.csdn.net/serenitymk/article/category/7574945)
+
 ## 核函数
 > 核函数保证每条边的误差不会大的没边，剔除误差较大的边。
 
