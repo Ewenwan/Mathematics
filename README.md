@@ -413,6 +413,8 @@
 
 > 例如 求 f(X)=0, 其中X=[x0,x1,...,xn]
 
+[Jacobian矩阵和Hessian矩阵](http://jacoxu.com/jacobian%E7%9F%A9%E9%98%B5%E5%92%8Chessian%E7%9F%A9%E9%98%B5/)
+
 > 所以我们有雅克比矩阵： 
 <img src="https://github.com/Ewenwan/Mathematics/blob/master/pic/1.png" width="600px" />
 
