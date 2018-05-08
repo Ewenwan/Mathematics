@@ -336,6 +336,13 @@
 
 > 变量组X的非线性变换 F(X)，一阶偏导数矩阵(雅克比矩阵，偏导数在均值处的值)为J，则F(X)的协方差为 J * C * J转置 = (J转置 * C逆 * J)逆 = (J转置 * C逆 * J)伪逆
 
+## 矩阵向量的求导数
+[矩阵 向量求导法则 pdf](http://files.cnblogs.com/files/leoleo/matrix_rules.pdf)
+
+[矩阵 向量求导法则 知乎](https://zhuanlan.zhihu.com/p/28791380)
+
+[矩阵求导术（上） 知乎](https://zhuanlan.zhihu.com/p/24709748)
+
 ## 数值优化
 [牛顿法 高斯牛顿法 莱文贝格－马夸特方法](http://blog.csdn.net/liu14lang/article/details/53991897)
 ### 牛顿法
