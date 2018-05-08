@@ -596,6 +596,12 @@ X0 = 0, X1 = 1.01, l2 = 1.9
 
 [读书笔记](https://blog.csdn.net/serenitymk/article/category/7574945)
 
+[多视图几何 TUM 课](https://blog.csdn.net/u011306452)
+
+[德国慕尼黑工业大学(TUM)计算机视觉组](https://vision.in.tum.de/research/vslam/lsdslam)
+
+[多视角几何百度文库搜索](https://wenku.baidu.com/search?word=%BC%C6%CB%E3%BB%FA%CA%D3%BE%F5%D6%D0%B5%C4%B6%E0%CA%D3%CD%BC%BC%B8%BA%CE&lm=0&od=0&fr=top_home&ie=gbk)
+
 ## 核函数
 > 核函数保证每条边的误差不会大的没边，剔除误差较大的边。
 
