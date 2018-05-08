@@ -392,12 +392,10 @@
 > 例如 求 f(X)=0, 其中X=[x0,x1,...,xn]
 
 > 所以我们有雅克比矩阵： 
-
-![](pic/1.png)
+<img src="https://github.com/Ewenwan/Mathematics/blob/master/pic/1.png" width="600px" />
 
 > 有海赛矩阵
-
-![](pic/2.png)
+<img src="https://github.com/Ewenwan/Mathematics/blob/master/pic/2.png" width="600px" />
 
 > 所以高维牛顿法解最优化问题又可写成： Xn+1 = Xn −  Hf(xn)逆 * ∇ * f(xn)
 
