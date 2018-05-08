@@ -654,6 +654,8 @@ X0 = 0, X1 = 1.01, l2 = 1.9
 # 卡尔曼滤波器
 [卡尔曼滤波](http://blog.csdn.net/heyijia0327/article/details/17487467)
 
+[卡尔曼滤波 -- 从推导到应用(一)](https://blog.csdn.net/heyijia0327/article/details/17487467)
+
 ## 线性系统的状态差分方程    系统预测  = A 转换矩阵1 * 上次状态  + B 转换矩阵2 * 输入  + Q 噪声1
 ![](pic/41.png)
 
@@ -792,8 +794,8 @@ X0 = 0, X1 = 1.01, l2 = 1.9
 # 粒子滤波器
 [粒子滤波](http://blog.csdn.net/heyijia0327/article/details/40899819)
 
+[粒子滤波通俗解释](https://blog.csdn.net/x_r_su/article/details/53083438)
 
-
-
+[Particle Filter Tutorial 粒子滤波：从推导到应用（一）](https://blog.csdn.net/heyijia0327/article/details/40899819)
 
  
