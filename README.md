@@ -798,4 +798,10 @@ X0 = 0, X1 = 1.01, l2 = 1.9
 
 [Particle Filter Tutorial 粒子滤波：从推导到应用（一）](https://blog.csdn.net/heyijia0327/article/details/40899819)
 
+[粒子滤波pdf](https://github.com/Ewenwan/Mathematics/blob/master/pdf/%E7%B2%92%E5%AD%90%E6%BB%A4%E6%B3%A2.pdf)
+
+
+
+
+
  
