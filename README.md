@@ -1108,3 +1108,9 @@ X0 = 0, X1 = 1.01, l2 = 1.9
       xlabel('time step'); ylabel('flight position');  
       legend('True flight position', 'Particle filter estimate'); 
 
+### 10.8 思考
+      感觉粒子滤波和遗传算法真是像极了。
+      同时，如果你觉得这种用很多粒子来计算的方式效率低，
+      在工程应用中不好接受，推荐看看无味卡尔曼滤波（UKF）,
+      他是有选择的产生粒子，而不是盲目的随机产生。
+      
