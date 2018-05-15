@@ -299,24 +299,24 @@
 
 ### 高斯分布
 #### 一维高斯分布
-![](pic/34.png)
+![](https://github.com/Ewenwan/Mathematics/tree/master/pic/34.png)
 
 > 均值u, 标准差 西格玛，方差 西格玛平方
 
-![](pic/31.png)
+![](https://github.com/Ewenwan/Mathematics/tree/master/pic/31.png)
 
 > 均值u 决定了 曲线在 坐标轴上的位置, 方差 决定了曲线的形状，方差越大，数据间差异越大，分布越广泛，曲线矮胖，反之，数据集中分布，曲线瘦高。
 
 #### 多维高斯分布
-![](pic/35.png)
+![](https://github.com/Ewenwan/Mathematics/tree/master/pic/35.png)
 
 > 均值u 为n * 1的向量，n为维度数, 一维的方差 变成了多维度向量之间的协方差矩阵, 协方差求逆，代替了 一维 除以方差， 多维时 x-u为矩阵形式(其实为向量)，一维时直接平方即可，多维时，需要 矩阵转置 * 矩阵。
 
-![](pic/32.png)
+![](https://github.com/Ewenwan/Mathematics/tree/master/pic/32.png)
 
 > 对应的协方差矩阵如下：
 
-![](pic/33.png)
+![](https://github.com/Ewenwan/Mathematics/tree/master/pic/33.png)
 
 > 协方差矩阵的主对角线，是各个变量本身的 方差，其余反应个变量之间的相关关系, 就上面的二元高斯分布而言，协方差越大，图像越扁，也就是说两个维度之间越有联系。
 
@@ -324,9 +324,22 @@
 
 ## 逆矩阵 伪逆矩阵  矩阵转置
 [现代视频](http://www.bilibili.com/video/av6731067/index_5.html#page=1)
-> 转置  列与行互换    (A * B)转置 = B转置 * A转置 ，(A + B)转置 = A转置 +  B转置， (K * A)转置=K* A转置， A转置 * B = (B转置 * A)转置
+> 转置  列与行互换    
+
+      (A * B)转置 = B转置 * A转置 ，
+      (A + B)转置 = A转置 +  B转置， 
+      (K * A)转置=K* A转置， 
+      A转置 * B = (B转置 * A)转置
  
-> 逆矩阵，非奇异方矩阵，有逆矩阵，A的伴随矩阵 除以 A的行列式，AB=BA=E, B成为A的逆, A逆的逆=A ，A逆的转置 = A转置的逆， (AB)逆 = B逆* A逆
+> 逆矩阵，非奇异方矩阵，有逆矩阵，A的伴随矩阵 除以 A的行列式，
+
+      AB=BA=E, B成为A的逆,
+      A逆的逆=A ，
+      A逆的转置 = A转置的逆，
+      (AB)逆 = B逆* A逆
+> 求解逆矩阵可使用 cholesky分解，则A = R转置 * R   R是上三角阵 R转置是下三角矩
+
+> A-¹=（R转置 * R）-¹ = R-¹ （R转置）-¹ =R-¹ *（R-¹）转置 
 
 > 伪逆矩阵，是逆矩阵的广义形式，由于 奇异矩阵(行列式值为0) 或 非方阵的矩阵 不存在逆矩阵，但是有伪逆矩阵
 
