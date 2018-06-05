@@ -5,6 +5,7 @@
 
 [浅谈流形学习](http://blog.pluskid.org/?p=533)
 
+[较好的博客数学知识](https://blog.csdn.net/myarrow/article/list/2)
 
 ## 方差 协方差 协方差矩阵 协方差矩阵对角化  矩阵的迹  均方误差  高斯分布
 ### 方差 分散程度，可以用数学上的方差来表述。
