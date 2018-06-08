@@ -3,6 +3,8 @@
 
 [统计之都](https://cosx.org/)
 
+[贝叶斯 博客](https://blog.csdn.net/neu_chenguangq)
+
 [浅谈流形学习](http://blog.pluskid.org/?p=533)
 
 [较好的博客数学知识](https://blog.csdn.net/myarrow/article/list/2)
