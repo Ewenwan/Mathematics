@@ -69,6 +69,8 @@
       可用于提取数据的主要特征分量，常用于高维数据的降维。
 [PCA降维](http://blog.codinglabs.org/articles/pca-tutorial.html)
 
+[PCA数学原理](http://www.360doc.com/content/13/1124/02/9482_331688889.shtml)
+
       PCA算法
       总结一下PCA的算法步骤：
 
