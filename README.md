@@ -12,7 +12,7 @@
     15 Dec 2016 » 数学狂想曲（二）——拉普拉斯变换, 随机变量的特征函数, 双曲函数和悬链线, 概率分布（1）
     26 Nov 2016 » 数学狂想曲（一）——搞笑图片的数学原理, 欧拉公式, 傅里叶变换
    
-
+[国防科学技术大学 计算机控制技术 ](http://www.icourses.cn/web/sword/portal/shareDetails?cId=6563#/course/chapter)
 
 # 数学知识点滴
 [数学pdf　微分几何　黎曼几何　群论　流形　随机过程　概率论　图论　拓扑学](http://vdisk.weibo.com/s/qBVN187myezF0)
