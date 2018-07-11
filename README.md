@@ -14,6 +14,9 @@
    
 [国防科学技术大学 计算机控制技术 ](http://www.icourses.cn/web/sword/portal/shareDetails?cId=6563#/course/chapter)
 
+[在线matlab代码学习神器Octave Online](https://octave-online.net/)
+
+
 # 数学知识点滴
 [数学pdf　微分几何　黎曼几何　群论　流形　随机过程　概率论　图论　拓扑学](http://vdisk.weibo.com/s/qBVN187myezF0)
 
