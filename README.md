@@ -28,6 +28,9 @@
 
 [较好的博客数学知识](https://blog.csdn.net/myarrow/article/list/2)
 
+[Signal Processing 信号处理课程：信号和系统、数字信号处理、估计理论、数据压缩](http://www.ws.binghamton.edu/fowler/)
+
+
 ## 方差 协方差 协方差矩阵 协方差矩阵对角化  矩阵的迹  均方误差  高斯分布
 ### 方差 分散程度，可以用数学上的方差来表述。
       此处，一个字段的方差可以看做是每个元素与字段均值的差的平方和的均值，即：
