@@ -496,6 +496,30 @@
 
 > 因此也就得到了我们的牛顿迭代公式：  xn = xn−1 − f(xn−1) / f′(xn−1)
 
+#### 算法应用 求一个数的立方根  平方根 ...
+```c
+// 求一个数的立方根
+#define E 0.0001 //精度设置
+using namespace std;
+double getCubeRoot(double num)
+{
+	double x0=num;// 初始解
+	double result;// 最终结果
+	while (1)
+	{
+		result = x0-(x0*x0*x0-num)/(3*x0*x0); 
+		// 给定num，需要计算一个x，使得 f(x) = x^3-num 最小化
+		// 对函数求导 f'(x)=3*x^2 ，进行更新迭代 x=x-f(x)/f'(x)
+		// 牛顿迭代 f(x) = x^3-num, f'(x)=3*x^2; x=x-f(x)/f'(x);
+		if ((result*result*result-num) < E && (result*result*result-num) > -E )
+			return result;
+		else
+			x0=result;
+	}
+}
+
+```
+
 ####  牛顿下山法  逐次 减小 变化调整
       有 Δ = x−x0 = −f(x0) / f′(x0), 即 x = x0 − f(x0) / f′(x0) 不断迭代优化
       为了保证每次 变化的量逐渐变小  加入逐渐变小的变化率 W (W=1 后逐次减半)
