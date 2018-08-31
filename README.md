@@ -18,6 +18,8 @@
 
 [离散数学 树 图 mook](https://www.icourse163.org/course/UESTC-1002268006)
 
+![](https://github.com/Ewenwan/Mathematics/blob/master/pic/numeric.PNG)
+
 # 数学知识点滴
 [数学pdf　微分几何　黎曼几何　群论　流形　随机过程　概率论　图论　拓扑学](http://vdisk.weibo.com/s/qBVN187myezF0)
 
