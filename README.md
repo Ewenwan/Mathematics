@@ -425,9 +425,9 @@
 > 均值u 决定了 曲线在 坐标轴上的位置, 方差 决定了曲线的形状，方差越大，数据间差异越大，分布越广泛，曲线矮胖，反之，数据集中分布，曲线瘦高。
 
 #### 两个一维高斯分布的乘积
-![]()
+![](https://github.com/Ewenwan/Mathematics/blob/master/pic/fx.PNG)
 > 红色为乘积后的分布，均值在两个高斯分布均值之间，标准差，比两个都小(高瘦)
-![]()
+![](https://github.com/Ewenwan/Mathematics/blob/master/pic/ggg.png)
 
 	两个高斯分布的乘积任然为高斯分布，所以 合成后的均值u 为合成分布函数最高点处的x值；
 
