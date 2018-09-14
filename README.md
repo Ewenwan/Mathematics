@@ -414,6 +414,8 @@
 
 ### 高斯分布
 #### 一维高斯分布
+[参考](http://www.tina-vision.net/docs/memos/2003-003.pdf)
+
 ![](https://github.com/Ewenwan/Mathematics/blob/master/pic/34.png)
 
 > 均值u, 标准差 西格玛，方差 西格玛平方
@@ -421,6 +423,23 @@
 ![](https://github.com/Ewenwan/Mathematics/blob/master/pic/31.png)
 
 > 均值u 决定了 曲线在 坐标轴上的位置, 方差 决定了曲线的形状，方差越大，数据间差异越大，分布越广泛，曲线矮胖，反之，数据集中分布，曲线瘦高。
+
+#### 两个一维高斯分布的乘积
+![]()
+> 红色为乘积后的分布，均值在两个高斯分布均值之间，标准差，比两个都小(高瘦)
+![]()
+
+	两个高斯分布的乘积任然为高斯分布，所以 合成后的均值u 为合成分布函数最高点处的x值；
+
+	所以对合成分布函数求 一阶导数，，令f'(x)=0 得到：  
+	(x-u1)/c1^2 + (x-u2)/c2^2 = 0,  得到：  
+	x = (u1 * c2^2 + u2 * c1^2)/(c1^2 + c2^2)
+
+	所以合成分布的 均值 u = (u1 * c2^2 + u2 * c1^2)/(c1^2 + c2^2)   u为均值，c为方差。
+
+	合成方差 1/c^2 = 1/c1^2 + 1/c2^2 
+
+
 
 #### 多维高斯分布
 ![](https://github.com/Ewenwan/Mathematics/blob/master/pic/35.png)
