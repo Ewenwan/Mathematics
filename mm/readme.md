@@ -5,6 +5,12 @@
 
 [【国赛】【美赛】数学建模相关算法 MATLAB实现](https://github.com/Ewenwan/Algorithms_MathModels)
 
+
+
+[2018年“华为杯”中国研究生数学建模竞赛答疑论坛](http://www.shumo.com/home/html/4060.html)
+
+[研究生赛题数模论坛 ](http://www.shumo.com/forum/forum.php?mod=forumdisplay&fid=113)
+
 # 经典模型
 ## 1. 决策问题，商人过河问题
     问题描述：
