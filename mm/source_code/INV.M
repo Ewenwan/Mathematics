@@ -1,8 +1,8 @@
-%ÇóÄæ¾ØÕó
-%ÓÃ·¨ B=inv(A) ÆäÖĞAÎªÊıÖµ»ò·ûºÅ·½Õó,B·µ»ØAµÄÄæ
-%ÀıÈç
-%    inv([1 2;3 4])                    %ÊıÖµ
-%    syms a b c d;inv([[a,b;c,d])      %·ûºÅ
+%æ±‚é€†çŸ©é˜µ B=inv(A å†…ç½®å‡½æ•°
+%ç”¨æ³• B=inv(A) å…¶ä¸­Aä¸ºæ•°å€¼æˆ–ç¬¦å·æ–¹é˜µ,Bè¿”å›Açš„é€†
+%ä¾‹å¦‚
+%    inv([1 2;3 4])                    %æ•°å€¼
+%    syms a b c d;inv([[a,b;c,d])      %ç¬¦å·
 %
 %INV    Matrix inverse.
 %   INV(X) is the inverse of the square matrix X.
