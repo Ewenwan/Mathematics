@@ -1,4 +1,5 @@
 function x=newton(f_name,x0,tol)
+% 牛顿法求解非线性 方程
 % Purpose: Solve a nonlinear equation by Newton iteration
 % Synopsis:     x=newton('f_name',x0)      
 %               x=newton('f_name',x0,tol)  
