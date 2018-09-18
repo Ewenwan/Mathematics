@@ -1,16 +1,35 @@
 # 1. 方程求根
     % 方程求根
-    % inv - 逆矩阵
+    % inv - 逆矩阵       B=inv(A)  内置函数
 
-    % roots - 多项式的根
+    % roots - 多项式的根 x^3+2x^2-3=0;  r = roots([1 2 0 -3])
 
-    % fzero - 一元函数零点
+    % fzero - 一元函数零点  同 多项式的根
 
     % fsolve - 非线性方程组
+            % 优化工具箱函数,可求多元非线性方程组的实根. 用法与fzero类似。
+            % 例 先写一个M函数rooteg4fun.m
+            %                  function  y=rooteg4fun(x)
+            %                  y(1)=4*x(1)-x(2)+exp(x(1))/10-1;
+            %                  y(2)=-x(1)+4*x(2)+x(1).^2/8;
+            %   使用
+            %      [x,f,h]=fsolve('rooteg4fun',[0,0]) % 初值x(1)=0, x(2)=0 
+            %   x返回解向量，f返回误差向量，h>0 表明算法收敛
+            %   注意：方程变量必须拼成一个向量变量，即用x(1),x(2),...
 
     % solve - 符号方程解
-
+            %   solve('方程1','方程2',...,'方程N','变量1','变量2',...,'变量M')
+            %SOLVE  Symbolic solution of algebraic equations.
+            %   SOLVE('eqn1','eqn2',...,'eqnN')
+            %   SOLVE('eqn1','eqn2',...,'eqnN','var1,var2,...,varN')
+            %   SOLVE('eqn1','eqn2',...,'eqnN','var1','var2',...'varN')
+            
     % *newton - 牛顿迭代法解非线性方程
+            % 1.5 牛顿法求解非线性 方程 x = x - x0/导数
+            % Synopsis:     x=newton('f_name',x0)      
+            %               x=newton('f_name',x0,tol)  
+            %            x: return a root of f(x)=0 near x0
+    
 # 2. 离散优化
     % *enum - 枚举法
     % *monte - 蒙特卡洛法
