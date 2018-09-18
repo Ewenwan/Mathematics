@@ -1,8 +1,8 @@
 function varargout = solve(varargin)
-%Çó¸÷ÖÖÀàÐÍ·½³Ì×éµÄ½âÎö½â, 
-%µ±ÕÒ²»µ½½âÎö½âÊ±,½«×Ô¶¯Ñ°ÇóÔ­µã¸½½üµÄÒ»¸ö½üËÆ½â, ²¢¿É´ïÈÎÒâ¾«¶È.
-%ÓÃ·¨
-%   solve('·½³Ì1','·½³Ì2',...,'·½³ÌN','±äÁ¿1','±äÁ¿2',...,'±äÁ¿M')
+% æ±‚å„ç§ç±»åž‹æ–¹ç¨‹ç»„çš„è§£æžè§£, 
+% å½“æ‰¾ä¸åˆ°è§£æžè§£æ—¶,å°†è‡ªåŠ¨å¯»æ±‚åŽŸç‚¹é™„è¿‘çš„ä¸€ä¸ªè¿‘ä¼¼è§£, å¹¶å¯è¾¾ä»»æ„ç²¾åº¦.
+% ç”¨æ³•
+%   solve('æ–¹ç¨‹1','æ–¹ç¨‹2',...,'æ–¹ç¨‹N','å˜é‡1','å˜é‡2',...,'å˜é‡M')
 %SOLVE  Symbolic solution of algebraic equations.
 %   SOLVE('eqn1','eqn2',...,'eqnN')
 %   SOLVE('eqn1','eqn2',...,'eqnN','var1,var2,...,varN')
