@@ -1,7 +1,7 @@
 function r = roots(c)
-%roots(p)¿ÉÇóµÃ¶àÏîÊ½pµÄËùÓĞ¸´¸ù.
-%Àı   x^3+2x^2-3=0
-%   Çó½â
+% roots(p)å¯æ±‚å¾—å¤šé¡¹å¼pçš„æ‰€æœ‰å¤æ ¹.
+%ä¾‹   x^3+2x^2-3=0
+%   æ±‚è§£
 %      roots([1 2 0 -3])
 %
 %ROOTS  Find polynomial roots.
