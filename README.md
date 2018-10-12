@@ -919,6 +919,8 @@ X0 = 0, X1 = 1.01, l2 = 1.9
 
 [卡尔曼滤波 -- 从推导到应用(一)](https://blog.csdn.net/heyijia0327/article/details/17487467)
 
+[机器人学 —— 机器人感知（Kalman Filter）](https://www.cnblogs.com/ironstark/p/5537219.html)
+
 ## 10.1 线性系统的状态差分方程    
 > 系统预测状态  = 转换矩阵A * 系统上次状态  + 转换矩阵B * 系统输入  + 系统噪声w
 
