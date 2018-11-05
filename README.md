@@ -42,6 +42,7 @@
 
 [Signal Processing 信号处理课程：信号和系统、数字信号处理、估计理论、数据压缩](http://www.ws.binghamton.edu/fowler/)
 
+[RANSAC 维基百科](https://en.wikipedia.org/wiki/Random_sample_consensus)
 
 ## 方差 协方差 协方差矩阵 协方差矩阵对角化  矩阵的迹  均方误差  高斯分布
 ### 方差 分散程度，可以用数学上的方差来表述。
