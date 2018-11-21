@@ -38,6 +38,10 @@
 # 数学知识点滴
 [数学pdf　微分几何　黎曼几何　群论　流形　随机过程　概率论　图论　拓扑学](http://vdisk.weibo.com/s/qBVN187myezF0)
 
+[概率图模型 pdf 视频 课程 ](http://www.cs.cmu.edu/~epxing/Class/10708-14/lecture.html)
+
+[An Introduction to Conditional Random Fields 条件随机场](https://arxiv.org/pdf/1011.4088.pdf)
+
 [统计之都](https://cosx.org/)
 
 [贝叶斯 博客](https://blog.csdn.net/neu_chenguangq)
