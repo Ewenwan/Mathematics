@@ -1,6 +1,8 @@
 # 参考
 [latex在线可视化编辑 hostMath](http://www.hostmath.com/)
 
+[python 学习线性代数](https://github.com/Ewenwan/Play-with-Linear-Algebra)
+
 [数学家 参考](http://www.mathor.com/portal.php)
 
 [数学狂想曲（一）——搞笑图片的数学原理, 欧拉公式, 傅里叶变换](http://antkillerfarm.github.io/math/2016/11/26/math.html)
