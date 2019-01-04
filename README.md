@@ -5,6 +5,8 @@
 
 [数学家 参考](http://www.mathor.com/portal.php)
 
+[数学计算 - C++数学计算](https://python.ctolib.com/categories/cpp-math.html)
+
 [数学狂想曲（一）——搞笑图片的数学原理, 欧拉公式, 傅里叶变换](http://antkillerfarm.github.io/math/2016/11/26/math.html)
 
 其他：
