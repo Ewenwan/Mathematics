@@ -1,6 +1,8 @@
 # 参考
 [latex在线可视化编辑 hostMath](http://www.hostmath.com/)
 
+[Mathpix将截图转换成LaTeX可编辑文本 使用snap安装 sudo snap install mathpix-snipping-tool](https://snapcraft.io/mathpix-snipping-toolhttps://snapcraft.io/mathpix-snipping-tool)
+
 [python 学习线性代数](https://github.com/Ewenwan/Play-with-Linear-Algebra)
 
 [数学家 参考](http://www.mathor.com/portal.php)
