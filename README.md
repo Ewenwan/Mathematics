@@ -11,6 +11,8 @@
 
 [数学狂想曲（一）——搞笑图片的数学原理, 欧拉公式, 傅里叶变换](http://antkillerfarm.github.io/math/2016/11/26/math.html)
 
+[Statistical learning methods, 统计学习方法，李航](https://github.com/SmirkCao/Lihang)
+
 [微积分 导数 隐函数 极限 积分 泰勒展开](https://github.com/Ewenwan/Algorithm_Interview_Notes-Chinese/blob/master/C-%E6%95%B0%E5%AD%A6/B-%E5%BE%AE%E7%A7%AF%E5%88%86%E7%9A%84%E6%9C%AC%E8%B4%A8.md)
 其他：
 
