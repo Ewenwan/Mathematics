@@ -1,5 +1,5 @@
 # latex 用法
-
+[一份其实很短的 LaTeX 入门文档](https://liam.page/2014/09/08/latex-introduction/)
 ## 安装
       注意!
       ▶ 不能放在带有中文的路径中
@@ -276,6 +276,75 @@ V = \frac{4}{3}\pi r^3
   ▶ 好处 1
   ▶ 好处 2
 
+```
+
+> 交叉引用
+
+      给对象命名：图片、表格、公式等
+      \label{name}
+      引用对象
+      \ref{name}
+```tex
+% 图=========================
+图 书 馆 馆 徽 请 参 见 图~\ref{fig:lib}。
+\begin{figure}[htbp]
+\centering                                % 居中
+\includegraphics[height=.2\textheight]%
+{libicon.pdf}
+\caption{图书馆馆徽}
+\label{fig:lib}
+\end{figure}
+
+
+% 表=======================
+\begin{table}[htbp]
+\caption{编 号 与 含 义}
+\label{tab:number}
+\centering
+\begin{tabular}{cl}
+\toprule
+编 号 & 含 义 \\
+\midrule
+1 & 第 一 \\
+2 & 第 二 \\
+\bottomrule
+\end{tabular}
+\end{table}
+公 式~(\ref{eq:vsphere}) 中 编 号 与 含 义
+请 参 见 表~\ref{tab:number}。
+
+
+```
+    
+> 论文选项
+
+```tex
+bachelor 我要写本科论文
+\documentclass[type=bachelor]{thuthesis}
+master 我要写硕士论文
+\documentclass[type=master]{thuthesis}
+doctor 我要写博士论文
+\documentclass[type=doctor]{thuthesis}
+secret 论文有保密要求
+\documentclass[type=doctor ,secret]{thuthesis}
+\secretlevel{机 密}
+\secretyear{2010}
+```
+
+> 封面
+```tex
+命令作用 中文命令 英文命令
+论文标题 \ctitle \etitle
+作者姓名 \cauthor \eauthor
+申请学位名称 \cdegree \edegree
+院系名称 \cdepartment \edepartment
+专业名称 \cmajor \emajor
+导师 \csupervisor \esupervisor
+副导师 \cassosupervisor \eassosupervisor
+联合导师 \ccosupervisor \ecosupervisor
+日期 \cdate \edate
+摘要 \cabstract \eabstract
+关键词 \ckeywords \ekeywords
 ```
 
 
