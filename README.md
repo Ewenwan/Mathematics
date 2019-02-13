@@ -1,4 +1,9 @@
 # 参考
+
+[程序员的数学3册 数学思维 概率论 线代csdn下载](https://download.csdn.net/download/starstars/10216368)
+
+[程序员的数学3册笔记](https://github.com/Ewenwan/book-note/tree/master/books/mathematics)
+
 [latex在线可视化编辑 hostMath](http://www.hostmath.com/)
 
 [Mathpix将截图转换成LaTeX可编辑文本 使用snap安装 sudo snap install mathpix-snipping-tool](https://snapcraft.io/mathpix-snipping-toolhttps://snapcraft.io/mathpix-snipping-tool)
