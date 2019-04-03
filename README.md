@@ -1,4 +1,5 @@
 # 参考
+[（西瓜书）公式推导解析](https://github.com/Ewenwan/pumpkin-book)
 
 [程序员的数学3册 数学思维 概率论 线代csdn下载](https://download.csdn.net/download/starstars/10216368)
 
