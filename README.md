@@ -53,6 +53,11 @@
 
 ![](https://github.com/Ewenwan/Mathematics/blob/master/pic/func.png)
 
+
+数学函数拟合： 泰勒展开式拟合 / 正交多项式拟合 https://github.com/chebfun/chebfun
+
+
+
 # 感谢支持
 
 ![](https://github.com/Ewenwan/EwenWan/blob/master/zf.jpg)
