@@ -166,3 +166,6 @@
 
 ### 矩阵的迹
 矩阵
+
+[后面被误删除了](https://github.com/zxp771/Mathematics/blob/master/README.md)
+
