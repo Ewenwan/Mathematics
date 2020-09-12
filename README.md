@@ -192,6 +192,6 @@
     make
     make install
 
-
+[islpy python接口](https://github.com/inducer/islpy)
 
  
