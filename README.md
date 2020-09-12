@@ -172,6 +172,8 @@
 ## 整数线性规划求解工具
 [Integer Set Library](http://isl.gforge.inria.fr/)
 
+isl是一个用于多面体模型调度实现的c/c++库。通过isl，我们可以对模型进行自动的调度，循环优化等。
+
 ### 编译
 
     ISL,Integer Set Library
