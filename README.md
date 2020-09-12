@@ -169,3 +169,29 @@
 
 [后面被误删除了](https://github.com/zxp771/Mathematics/blob/master/README.md)
 
+## 整数线性规划求解工具
+[Integer Set Library](http://isl.gforge.inria.fr/)
+
+### 编译
+
+    ISL,Integer Set Library
+    版本0.22.1，http://isl.gforge.inria.fr/
+    README关于编译的部分说了
+    ./configure
+    make
+    make install
+    使用./configure --help阅读后针对本地环境，使用
+    ./configure --prefix=/opt/isl --enable-shared=yes --enable-static=yes \
+    CC=/opt/gcc/bin/gcc \
+    CFLAGS="-O3 -I/opt/gmp/include" \
+    LDFLAGS="-L/opt/gmp/lib -Wl,--rpath=/opt/gmp/lib" \
+    CXX=/opt/gcc-10.2.0/bin/g++ \
+    CXXFLAGS="-I/opt/gmp/include" \
+    PYTHON=/opt/python3/bin/python3 \
+    --enable-fast-install=no --with-gnu-ld
+    make
+    make install
+
+
+
+ 
